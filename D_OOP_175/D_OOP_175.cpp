@@ -7,7 +7,8 @@ public:
 	string nama;
 	void tampil() {
 		cout << "NIM = " << nim;
-		cin >> nim;
+		cout << "Nama = " << nama;
+		
 	}
 };
 
@@ -30,7 +31,7 @@ public:
 	void tampilMK() {
 		cout << "\nJumlah sks = " << sks;
 		cout << "\nKode MK = " << kode;
-		cout << "\nNama MK = " << namaMK;
+		cout << "\nNama MK = " << namaMK << endl;
 	}
 };
 
