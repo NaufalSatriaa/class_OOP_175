@@ -28,8 +28,25 @@ public:
 	}
 
 	void tampilMK() {
-		cout << "\Jumlah sks = " << sks;
-		cout << "\Kode MK = " << kode;
-		cout << "\Nama MK = " << namaMK;
+		cout << "\nJumlah sks = " << sks;
+		cout << "\nKode MK = " << kode;
+		cout << "\nNama MK = " << namaMK;
 	}
 };
+
+int main() {
+	Mahasiswa mhs;
+	MataKuliah mk;
+
+	cout << "\nMasukkan NIM = ";
+	cin >> mhs.nim;
+	cout << "\nMasukkan Nama = ";
+	cin >> mhs.nama;
+
+	mk.inputMK();
+	mhs.tampil();
+	mk.tampilMK();
+
+	system("pause");
+
+}
