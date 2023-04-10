@@ -10,3 +10,7 @@ public:
 		cin >> nim;
 	}
 };
+
+class MataKuliah {
+
+};
