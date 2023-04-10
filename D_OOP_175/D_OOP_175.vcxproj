@@ -24,6 +24,7 @@
     <ProjectGuid>{01e50b81-af72-4051-9312-0004defdb4f8}</ProjectGuid>
     <RootNamespace>DOOP175</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>class_OOP_175</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
