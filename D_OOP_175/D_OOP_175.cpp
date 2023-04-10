@@ -47,7 +47,4 @@ int main() {
 	mk.inputMK();
 	mhs.tampil();
 	mk.tampilMK();
-
-	system("pause");
-
 }
